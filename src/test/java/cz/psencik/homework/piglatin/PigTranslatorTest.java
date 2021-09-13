@@ -29,6 +29,7 @@ public class PigTranslatorTest
         );
     }
 
+    @Test
     public void emptyInput() {
         Assert.assertNull(pigLatinTranslator.translateString(null));
         Assert.assertEquals("", pigLatinTranslator.translateString(""));
